@@ -10,7 +10,8 @@
 - **Parser**
     - ASE Parser를 이용한 캐릭터, 오브젝트 파싱 작업
 - **그래픽스**
+    - Shader Reflection 등..
     - Deferred Rendering Pass, UI Pass
 - **컨텐츠**
-    - EventMachine 설계 및 Event 구현
+    - EventMachine 설계 및 Event 컨텐츠 구현, 오브젝트 프리팹화
     - 타이틀, 로딩 및 메뉴 UI 화면 구성
