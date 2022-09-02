@@ -1,0 +1,8 @@
+﻿  AudioSystem.cpp
+D:\GA3rd4Q_Project\Voyage\5_Project\FmodAudioEngine\FmodAudioEngine\AudioSystem.cpp(70,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\GA3rd4Q_Project\Voyage\5_Project\FmodAudioEngine\FmodAudioEngine\AudioSystem.cpp(300,1): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+D:\GA3rd4Q_Project\Voyage\5_Project\FmodAudioEngine\FmodAudioEngine\AudioSystem.cpp(313,1): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+  LINK : D:\GA3rd4Q_Project\Voyage\5_Project\Common\lib\FmodAudioEngine.dll을(를) 찾을 수 없거나 마지막 증분 링크에 의해 빌드되지 않았습니다. 전체 링크를 수행하고 있습니다.
+     D:\GA3rd4Q_Project\Voyage\5_Project\Common\lib\FmodAudioEngine.lib 라이브러리 및 D:\GA3rd4Q_Project\Voyage\5_Project\Common\lib\FmodAudioEngine.exp 개체를 생성하고 있습니다.
+  FmodAudioEngine.vcxproj -> D:\GA3rd4Q_Project\Voyage\5_Project\Common\lib\FmodAudioEngine.dll
+          1개 파일이 복사되었습니다.

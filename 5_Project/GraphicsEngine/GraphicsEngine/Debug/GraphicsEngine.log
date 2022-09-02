@@ -1,0 +1,23 @@
+﻿  OceanTestPass.cpp
+  LINK : D:\GA3rd4Q_Project\Voyage\5_Project\Common\lib\GraphicsEngine.dll을(를) 찾을 수 없거나 마지막 증분 링크에 의해 빌드되지 않았습니다. 전체 링크를 수행하고 있습니다.
+     D:\GA3rd4Q_Project\Voyage\5_Project\Common\lib\GraphicsEngine.lib 라이브러리 및 D:\GA3rd4Q_Project\Voyage\5_Project\Common\lib\GraphicsEngine.exp 개체를 생성하고 있습니다.
+DirectXTK_x86_Debug.lib(BufferHelpers.obj) : warning LNK4099: '' PDB를 'DirectXTK_x86_Debug.lib(BufferHelpers.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK_x86_Debug.lib(CommonStates.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK_x86_Debug.lib(CommonStates.obj)' 또는 'D:\GA3rd4Q_Project\Voyage\5_Project\Common\lib\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK_x86_Debug.lib(BinaryReader.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK_x86_Debug.lib(BinaryReader.obj)' 또는 'D:\GA3rd4Q_Project\Voyage\5_Project\Common\lib\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK_x86_Debug.lib(pch.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK_x86_Debug.lib(pch.obj)' 또는 'D:\GA3rd4Q_Project\Voyage\5_Project\Common\lib\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK_x86_Debug.lib(SpriteBatch.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK_x86_Debug.lib(SpriteBatch.obj)' 또는 'D:\GA3rd4Q_Project\Voyage\5_Project\Common\lib\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK_x86_Debug.lib(SpriteFont.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK_x86_Debug.lib(SpriteFont.obj)' 또는 'D:\GA3rd4Q_Project\Voyage\5_Project\Common\lib\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTK_x86_Debug.lib(VertexTypes.obj) : warning LNK4099: 'DirectXTK.pdb' PDB를 'DirectXTK_x86_Debug.lib(VertexTypes.obj)' 또는 'D:\GA3rd4Q_Project\Voyage\5_Project\Common\lib\DirectXTK.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex_x86_Debug.lib(BC.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex_x86_Debug.lib(BC.obj)' 또는 'D:\GA3rd4Q_Project\Voyage\5_Project\Common\lib\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex_x86_Debug.lib(BC4BC5.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex_x86_Debug.lib(BC4BC5.obj)' 또는 'D:\GA3rd4Q_Project\Voyage\5_Project\Common\lib\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex_x86_Debug.lib(BC6HBC7.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex_x86_Debug.lib(BC6HBC7.obj)' 또는 'D:\GA3rd4Q_Project\Voyage\5_Project\Common\lib\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex_x86_Debug.lib(DirectXTexCompress.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex_x86_Debug.lib(DirectXTexCompress.obj)' 또는 'D:\GA3rd4Q_Project\Voyage\5_Project\Common\lib\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex_x86_Debug.lib(DirectXTexConvert.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex_x86_Debug.lib(DirectXTexConvert.obj)' 또는 'D:\GA3rd4Q_Project\Voyage\5_Project\Common\lib\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex_x86_Debug.lib(DirectXTexD3D11.obj) : warning LNK4099: '' PDB를 'DirectXTex_x86_Debug.lib(DirectXTexD3D11.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex_x86_Debug.lib(DirectXTexDDS.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex_x86_Debug.lib(DirectXTexDDS.obj)' 또는 'D:\GA3rd4Q_Project\Voyage\5_Project\Common\lib\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex_x86_Debug.lib(DirectXTexImage.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex_x86_Debug.lib(DirectXTexImage.obj)' 또는 'D:\GA3rd4Q_Project\Voyage\5_Project\Common\lib\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex_x86_Debug.lib(DirectXTexMipMaps.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex_x86_Debug.lib(DirectXTexMipMaps.obj)' 또는 'D:\GA3rd4Q_Project\Voyage\5_Project\Common\lib\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex_x86_Debug.lib(DirectXTexUtil.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex_x86_Debug.lib(DirectXTexUtil.obj)' 또는 'D:\GA3rd4Q_Project\Voyage\5_Project\Common\lib\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTex_x86_Debug.lib(DirectXTexWIC.obj) : warning LNK4099: 'DirectXTex.pdb' PDB를 'DirectXTex_x86_Debug.lib(DirectXTexWIC.obj)' 또는 'D:\GA3rd4Q_Project\Voyage\5_Project\Common\lib\DirectXTex.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+  GraphicsEngine.vcxproj -> D:\GA3rd4Q_Project\Voyage\5_Project\Common\lib\GraphicsEngine.dll
+          1개 파일이 복사되었습니다.

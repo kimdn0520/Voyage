@@ -1,0 +1,18 @@
+﻿  GameObject.cpp
+  NewbieEngineFunc.cpp
+  Scene.cpp
+D:\GA3rd4Q_Project\Voyage\5_Project\NewbieEngine\NewbieEngine\Scene.cpp(53,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\GA3rd4Q_Project\Voyage\5_Project\NewbieEngine\NewbieEngine\Scene.cpp(92,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\GA3rd4Q_Project\Voyage\5_Project\NewbieEngine\NewbieEngine\Scene.cpp(140,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Text.cpp
+D:\GA3rd4Q_Project\Voyage\5_Project\NewbieEngine\NewbieEngine\Text.cpp(27,15): warning C4244: '*=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA3rd4Q_Project\Voyage\5_Project\NewbieEngine\NewbieEngine\Text.cpp(28,15): warning C4244: '*=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA3rd4Q_Project\Voyage\5_Project\NewbieEngine\NewbieEngine\Text.cpp(36,15): warning C4244: '*=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA3rd4Q_Project\Voyage\5_Project\NewbieEngine\NewbieEngine\Text.cpp(37,15): warning C4244: '*=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA3rd4Q_Project\Voyage\5_Project\NewbieEngine\NewbieEngine\Text.cpp(39,19): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA3rd4Q_Project\Voyage\5_Project\NewbieEngine\NewbieEngine\Text.cpp(40,19): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+  LINK : D:\GA3rd4Q_Project\Voyage\5_Project\Common\lib\NewbieEngine.dll을(를) 찾을 수 없거나 마지막 증분 링크에 의해 빌드되지 않았습니다. 전체 링크를 수행하고 있습니다.
+     D:\GA3rd4Q_Project\Voyage\5_Project\Common\lib\NewbieEngine.lib 라이브러리 및 D:\GA3rd4Q_Project\Voyage\5_Project\Common\lib\NewbieEngine.exp 개체를 생성하고 있습니다.
+  NewbieEngine.vcxproj -> D:\GA3rd4Q_Project\Voyage\5_Project\Common\lib\NewbieEngine.dll
+          1개 파일이 복사되었습니다.

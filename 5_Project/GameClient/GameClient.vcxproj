@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{5d4199ae-9d80-4798-8d60-d4500a30f6f6}</ProjectGuid>
+    <RootNamespace>GameClient</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)Output\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)Output\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir)GraphicsEngine\GraphicsEngine;$(SolutionDir)FmodAudioEngine\FmodAudioEngine;$(SolutionDir)NewbieEngine\NewbieEngine;$(SolutionDir)Common\inc;$(SolutionDir)\Common\inc\inc\Rapidjson\;$(SolutionDir)\Common\inc\inc\Rapidjson\error\</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Common\lib\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(SolutionDir)Common\lib\NewbieEngine.lib;$(SolutionDir)Common\lib\GraphicsEngine.lib;$(SolutionDir)Common\lib\FBXParser.lib;$(SolutionDir)Common\lib\FmodAudioEngine.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir)GraphicsEngine\GraphicsEngine;$(SolutionDir)NewbieEngine\NewbieEngine;$(SolutionDir)Common\inc</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Common\lib\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(SolutionDir)Common\lib\NewbieEngine.lib;$(SolutionDir)Common\lib\GraphicsEngine.lib;$(SolutionDir)Common\lib\FBXParser.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AdultBoyPrefab.h" />
+    <ClInclude Include="AdultGirlPrefab.h" />
+    <ClInclude Include="AdulthoodScene.h" />
+    <ClInclude Include="AdulthoodText.h" />
+    <ClInclude Include="BabyPrefab.h" />
+    <ClInclude Include="BadEndingScene.h" />
+    <ClInclude Include="BadEndingSceneScript.h" />
+    <ClInclude Include="CompetitorController.h" />
+    <ClInclude Include="CompetitorTrace.h" />
+    <ClInclude Include="DodoYouthPrefab.h" />
+    <ClInclude Include="EVENT_ADULTHOOD_COMPETITOR.h" />
+    <ClInclude Include="EVENT_ADULTHOOD_GIRL.h" />
+    <ClInclude Include="EVENT_ADULTHOOD_INTRO.h" />
+    <ClInclude Include="EVENT_ADULTHOOD_NOTURTLE.h" />
+    <ClInclude Include="EVENT_ADULTHOOD_RHYTHM.h" />
+    <ClInclude Include="EVENT_ADULTHOOD_SEAGULL.h" />
+    <ClInclude Include="EVENT_ADULTHOOD_SWIRL.h" />
+    <ClInclude Include="EVENT_ADULTHOOD_THUNDER.h" />
+    <ClInclude Include="EVENT_ADULTHOOD_TURTLE.h" />
+    <ClInclude Include="EVENT_ADULTHOOD_UPSTAR.h" />
+    <ClInclude Include="EVENT_ADULTHOOD_WEDDING.h" />
+    <ClInclude Include="EVENT_OLDAGE_END.h" />
+    <ClInclude Include="EVENT_OLDAGE_FLIASHING.h" />
+    <ClInclude Include="EVENT_OLDAGE_INTRO.h" />
+    <ClInclude Include="EVENT_YOUTH_FARMING.h" />
+    <ClInclude Include="EVENT_YOUTH_SOLO.h" />
+    <ClInclude Include="GrandFaPrefab.h" />
+    <ClInclude Include="GrandMaPrefab.h" />
+    <ClInclude Include="Ground.h" />
+    <ClInclude Include="HappyEndingScene.h" />
+    <ClInclude Include="HappyEndingSceneScript.h" />
+    <ClInclude Include="LightningPrefab.h" />
+    <ClInclude Include="OldAgeText.h" />
+    <ClInclude Include="Swirl.h" />
+    <ClInclude Include="SwirlPrefab.h" />
+    <ClInclude Include="YouthScene.h" />
+    <ClInclude Include="YouthText.h" />
+    <ClInclude Include="AdultPlayer.h" />
+    <ClInclude Include="BigBoatPrefab.h" />
+    <ClInclude Include="BigStarPrefab.h" />
+    <ClInclude Include="BirdDiePrefab.h" />
+    <ClInclude Include="BirdDieScript.h" />
+    <ClInclude Include="BirdPrefab.h" />
+    <ClInclude Include="BlinkImage.h" />
+    <ClInclude Include="BoatPrefab.h" />
+    <ClInclude Include="BottlePrefab.h" />
+    <ClInclude Include="CameraScript.h" />
+    <ClInclude Include="ClockPrefab.h" />
+    <ClInclude Include="Credit.h" />
+    <ClInclude Include="DataManager.h" />
+    <ClInclude Include="DialogController.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="EventMachine.h" />
+    <ClInclude Include="EVENT_YOUTH_INTRO.h" />
+    <ClInclude Include="EVENT_YOUTH_ROW.h" />
+    <ClInclude Include="EVENT_INFANCY_END.h" />
+    <ClInclude Include="EVENT_INFANCY_FARMING.h" />
+    <ClInclude Include="EVENT_INFANCY_SHAKING.h" />
+    <ClInclude Include="EVENT_INTRO.h" />
+    <ClInclude Include="EVENT_TITLE.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="GameClient.h" />
+    <ClInclude Include="GameManager.h" />
+    <ClInclude Include="GameProcess.h" />
+    <ClInclude Include="GlacierPrefab.h" />
+    <ClInclude Include="HeartPrefab.h" />
+    <ClInclude Include="Infancy.h" />
+    <ClInclude Include="InfancyText.h" />
+    <ClInclude Include="IPrefab.h" />
+    <ClInclude Include="IEventState.h" />
+    <ClInclude Include="Island2Prefab.h" />
+    <ClInclude Include="IslandPrefab.h" />
+    <ClInclude Include="Item.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="JsonBase.h" />
+    <ClInclude Include="LilyFlowerPrefab.h" />
+    <ClInclude Include="LoadingScene.h" />
+    <ClInclude Include="LoadingText.h" />
+    <ClInclude Include="LoadSceneScript.h" />
+    <ClInclude Include="MoneyPrefab.h" />
+    <ClInclude Include="MoveObject.h" />
+    <ClInclude Include="MusicNotePrefab.h" />
+    <ClInclude Include="Npc.h" />
+    <ClInclude Include="OldAgeScene.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="RosePrefab.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PressAnyKey.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SmallBoatPrefab.h" />
+    <ClInclude Include="SoundManager.h" />
+    <ClInclude Include="StarPrefab.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TestScene.h" />
+    <ClInclude Include="TestScene3.h" />
+    <ClInclude Include="TextScript.h" />
+    <ClInclude Include="TitleScene.h" />
+    <ClInclude Include="TurtlePrefab.h" />
+    <ClInclude Include="UIManager.h" />
+    <ClInclude Include="UtilityFunction.h" />
+    <ClInclude Include="YJScene.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AdultBoyPrefab.cpp" />
+    <ClCompile Include="AdultGirlPrefab.cpp" />
+    <ClCompile Include="AdulthoodScene.cpp" />
+    <ClCompile Include="AdulthoodText.cpp" />
+    <ClCompile Include="BabyPrefab.cpp" />
+    <ClCompile Include="BadEndingScene.cpp" />
+    <ClCompile Include="BadEndingSceneScript.cpp" />
+    <ClCompile Include="CompetitorController.cpp" />
+    <ClCompile Include="CompetitorTrace.cpp" />
+    <ClCompile Include="DodoYouthPrefab.cpp" />
+    <ClCompile Include="EVENT_ADULTHOOD_COMPETITOR.cpp" />
+    <ClCompile Include="EVENT_ADULTHOOD_GIRL.cpp" />
+    <ClCompile Include="EVENT_ADULTHOOD_INTRO.cpp" />
+    <ClCompile Include="EVENT_ADULTHOOD_NOTURTLE.cpp" />
+    <ClCompile Include="EVENT_ADULTHOOD_RHYTHM.cpp" />
+    <ClCompile Include="EVENT_ADULTHOOD_SEAGULL.cpp" />
+    <ClCompile Include="EVENT_ADULTHOOD_SWIRL.cpp" />
+    <ClCompile Include="EVENT_ADULTHOOD_THUNDER.cpp" />
+    <ClCompile Include="EVENT_ADULTHOOD_TURTLE.cpp" />
+    <ClCompile Include="EVENT_ADULTHOOD_UPSTAR.cpp" />
+    <ClCompile Include="EVENT_ADULTHOOD_WEDDING.cpp" />
+    <ClCompile Include="EVENT_OLDAGE_END.cpp" />
+    <ClCompile Include="EVENT_OLDAGE_FLIASHING.cpp" />
+    <ClCompile Include="EVENT_OLDAGE_INTRO.cpp" />
+    <ClCompile Include="EVENT_YOUTH_FARMING.cpp" />
+    <ClCompile Include="EVENT_YOUTH_SOLO.cpp" />
+    <ClCompile Include="GrandFaPrefab.cpp" />
+    <ClCompile Include="GrandMaPrefab.cpp" />
+    <ClCompile Include="Ground.cpp" />
+    <ClCompile Include="HappyEndingScene.cpp" />
+    <ClCompile Include="HappyEndingSceneScript.cpp" />
+    <ClCompile Include="LightningPrefab.cpp" />
+    <ClCompile Include="OldAgeText.cpp" />
+    <ClCompile Include="Swirl.cpp" />
+    <ClCompile Include="SwirlPrefab.cpp" />
+    <ClCompile Include="YouthScene.cpp" />
+    <ClCompile Include="YouthText.cpp" />
+    <ClCompile Include="AdultPlayer.cpp" />
+    <ClCompile Include="BigBoatPrefab.cpp" />
+    <ClCompile Include="BigStarPrefab.cpp" />
+    <ClCompile Include="BirdDiePrefab.cpp" />
+    <ClCompile Include="BirdDieScript.cpp" />
+    <ClCompile Include="BirdPrefab.cpp" />
+    <ClCompile Include="BlinkImage.cpp" />
+    <ClCompile Include="BoatPrefab.cpp" />
+    <ClCompile Include="BottlePrefab.cpp" />
+    <ClCompile Include="CameraScript.cpp" />
+    <ClCompile Include="ClockPrefab.cpp" />
+    <ClCompile Include="Credit.cpp" />
+    <ClCompile Include="DataManager.cpp" />
+    <ClCompile Include="DialogController.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="EventMachine.cpp" />
+    <ClCompile Include="EVENT_YOUTH_INTRO.cpp" />
+    <ClCompile Include="EVENT_YOUTH_ROW.cpp" />
+    <ClCompile Include="EVENT_INFANCY_END.cpp" />
+    <ClCompile Include="EVENT_INFANCY_FARMING.cpp" />
+    <ClCompile Include="EVENT_INFANCY_SHAKING.cpp" />
+    <ClCompile Include="EVENT_INTRO.cpp" />
+    <ClCompile Include="EVENT_TITLE.cpp" />
+    <ClCompile Include="GameClient.cpp" />
+    <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="GameProcess.cpp" />
+    <ClCompile Include="GlacierPrefab.cpp" />
+    <ClCompile Include="HeartPrefab.cpp" />
+    <ClCompile Include="Infancy.cpp" />
+    <ClCompile Include="InfancyText.cpp" />
+    <ClCompile Include="IPrefab.cpp" />
+    <ClCompile Include="IEventState.cpp" />
+    <ClCompile Include="Island2Prefab.cpp" />
+    <ClCompile Include="IslandPrefab.cpp" />
+    <ClCompile Include="Item.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="JsonBase.cpp" />
+    <ClCompile Include="LilyFlowerPrefab.cpp" />
+    <ClCompile Include="LoadingScene.cpp" />
+    <ClCompile Include="LoadingText.cpp" />
+    <ClCompile Include="LoadSceneScript.cpp" />
+    <ClCompile Include="MoneyPrefab.cpp" />
+    <ClCompile Include="MoveObject.cpp" />
+    <ClCompile Include="MusicNotePrefab.cpp" />
+    <ClCompile Include="Npc.cpp" />
+    <ClCompile Include="OldAgeScene.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="RosePrefab.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PressAnyKey.cpp" />
+    <ClCompile Include="SmallBoatPrefab.cpp" />
+    <ClCompile Include="SoundManager.cpp" />
+    <ClCompile Include="StarPrefab.cpp" />
+    <ClCompile Include="TestScene.cpp" />
+    <ClCompile Include="TestScene3.cpp" />
+    <ClCompile Include="TextScript.cpp" />
+    <ClCompile Include="TitleScene.cpp" />
+    <ClCompile Include="TurtlePrefab.cpp" />
+    <ClCompile Include="UIManager.cpp" />
+    <ClCompile Include="YJScene.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameClient.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="GameClient.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

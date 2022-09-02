@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{6834f312-9a18-4f28-a3cd-8a53b6ce5dd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{328b3160-3655-4c8a-a39b-669ebe99ab50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{0aaa9a78-f347-4682-ad14-004ab190c11e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{ae391f73-9b6d-4419-83a3-9b7c781b2355}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{acb9dcb2-debd-41a9-8ea0-9d1fa9ec2877}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{cfb487e8-d2ca-48cc-94df-61e37583984b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\IComponent">
+      <UniqueIdentifier>{733f7e41-d740-40b0-830a-960e348af9f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DLLMain">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Components\MonoBehaviour">
+      <UniqueIdentifier>{fee21d98-16c0-4070-9778-290a637335af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Camera">
+      <UniqueIdentifier>{2c8b8b41-07f3-4f70-a19a-bbdd56c1b3b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Transform">
+      <UniqueIdentifier>{8f7fdd40-87ff-4605-bc81-b8f982f0ea18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Renderer">
+      <UniqueIdentifier>{4480db32-8005-475f-a77f-f2925eb0cb90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Renderer\IRenderer">
+      <UniqueIdentifier>{cd57ec82-73e7-42b3-9c56-b1402bb621da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Renderer\MeshRenderer">
+      <UniqueIdentifier>{0c27cb56-c710-48fe-bed0-053c304780ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Light">
+      <UniqueIdentifier>{58f12b6b-08ef-47f0-bf59-d1a34b977c66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MeshData">
+      <UniqueIdentifier>{54f490b5-adb8-4283-a941-f1ee1f24f065}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Animator">
+      <UniqueIdentifier>{ab6016d8-ae8f-4b06-9dff-6f0adbbe3941}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Text">
+      <UniqueIdentifier>{5428d955-173c-4365-9eda-e96195245b03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Camera\Frustum">
+      <UniqueIdentifier>{414848bb-4b24-48c0-861c-9dda6e03f356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BoundingVolumes">
+      <UniqueIdentifier>{b80b36c0-49db-4331-a901-b1aad002f302}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Collider">
+      <UniqueIdentifier>{c006d3a0-5cbd-46b3-9658-c859a7ead3fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Audio">
+      <UniqueIdentifier>{46264fe1-af7f-4565-afd2-1f04523dd964}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ray">
+      <UniqueIdentifier>{c02e4e00-aab5-482d-82c8-9e92b9163295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\UI">
+      <UniqueIdentifier>{cfe72f0d-ef1d-4c6c-8117-11502ed198ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\UI\Canvas">
+      <UniqueIdentifier>{dbf3c52b-6f45-4268-8f06-25d4690804f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\UI\Button">
+      <UniqueIdentifier>{831f6996-9b15-41d9-9b4d-10b8b9e1d213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\UI\Panel">
+      <UniqueIdentifier>{d708b8fb-89d5-4db2-9d5d-564b42302a42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\UI\UIInterface">
+      <UniqueIdentifier>{acedd628-66aa-4a55-b1d2-d2dea19eb4e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Rigidbody">
+      <UniqueIdentifier>{3ca72c7a-8e07-4034-aab6-5172b7e9d4b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Particle">
+      <UniqueIdentifier>{85b31ac0-9207-4acc-aabf-3e8efbdc15ed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="NewbieEngine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="NewbieEngineDLL.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="NewbieEnginePch.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="NewbieEngineFunc.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Components\IComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsEngineManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="MonoBehaviour.h">
+      <Filter>Components\MonoBehaviour</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Components\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Components\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\inc\SimpleMath.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Components\Renderer\IRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshRenderer.h">
+      <Filter>Components\Renderer\MeshRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectInfo.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Components\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="AlignedAllocationPolicy.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshData.h">
+      <Filter>MeshData</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>Components\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinAnimator.h">
+      <Filter>Components\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Components\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Frustum.h">
+      <Filter>Components\Camera\Frustum</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingVolumes.h">
+      <Filter>BoundingVolumes</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxCollider.h">
+      <Filter>Components\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereCollider.h">
+      <Filter>Components\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderBase.h">
+      <Filter>Components\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>Components\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioListener.h">
+      <Filter>Components\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="NoobRay.h">
+      <Filter>Ray</Filter>
+    </ClInclude>
+    <ClInclude Include="Canvas.h">
+      <Filter>Components\UI\Canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Components\UI\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Panel.h">
+      <Filter>Components\UI\Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Components\UI\UIInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="Rigidbody.h">
+      <Filter>Components\Rigidbody</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleInfo.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Components\Particle</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>DLLMain</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="NewbieEngine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="NewbieEnginePch.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="NewbieEngineFunc.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Components\IComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsEngineManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="MonoBehaviour.cpp">
+      <Filter>Components\MonoBehaviour</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Components\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Components\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Components\Renderer\IRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshRenderer.cpp">
+      <Filter>Components\Renderer\MeshRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Components\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="FBXManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshData.cpp">
+      <Filter>MeshData</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>Components\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinAnimator.cpp">
+      <Filter>Components\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Components\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Frustum.cpp">
+      <Filter>Components\Camera\Frustum</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxCollider.cpp">
+      <Filter>Components\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereCollider.cpp">
+      <Filter>Components\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderBase.cpp">
+      <Filter>Components\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>Components\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioListener.cpp">
+      <Filter>Components\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="NoobRay.cpp">
+      <Filter>Ray</Filter>
+    </ClCompile>
+    <ClCompile Include="Canvas.cpp">
+      <Filter>Components\UI\Canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Components\UI\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="Panel.cpp">
+      <Filter>Components\UI\Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Components\UI\UIInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="Rigidbody.cpp">
+      <Filter>Components\Rigidbody</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Components\Particle</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

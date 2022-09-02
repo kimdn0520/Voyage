@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{af704210-0f5e-4114-9f33-a5eb837ba3db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DLLMain">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{9fd0a598-0370-4842-9987-58915bb1b5fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Device">
+      <UniqueIdentifier>{f377443a-1a32-4f1e-bf7d-a7c27f41a963}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\SwapChain">
+      <UniqueIdentifier>{03b6c7d6-e805-4bd8-9020-e2401d08d6eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\RenderTargetView">
+      <UniqueIdentifier>{c52d1968-d3b1-4324-8a96-a40a9dd85b6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\DepthStencilState">
+      <UniqueIdentifier>{f854da16-2908-4897-a224-5381fbd38539}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\RasterizerState">
+      <UniqueIdentifier>{4d010508-0b14-411f-bff3-6ef0581bfed1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{dfcf42a3-55ee-4820-a1f5-9a2d07aa881c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\VertexShader">
+      <UniqueIdentifier>{cda8d09c-1908-4261-aa18-dbd2ab9d7e15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\ShaderResource">
+      <UniqueIdentifier>{0d2f61fe-974e-4aad-bfa3-af79f422effb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Pass">
+      <UniqueIdentifier>{3217344d-718e-4a94-bd31-953b1d6e5ff6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\IShader">
+      <UniqueIdentifier>{6595a1e3-3169-415b-bf3d-4d3da3ca51fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{ce00e67e-099d-4b01-a101-7c91bf118139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\HLSL">
+      <UniqueIdentifier>{ef40c045-103f-426f-ae65-1782dcab08fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Define">
+      <UniqueIdentifier>{7ddb45e0-86ef-428d-8a23-1fd044bcd20c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{5e19f5fb-2d17-4fd4-bd77-87b567d5f77f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Mesh">
+      <UniqueIdentifier>{f6a13321-3857-431e-8da4-634fd2326006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Texture">
+      <UniqueIdentifier>{cca82a74-c2be-4d30-9aee-084e73074e62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Pass\Basic">
+      <UniqueIdentifier>{9a08544d-b71d-410c-be9b-e7c76c6123a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Pass\Light">
+      <UniqueIdentifier>{8a73d2c1-e5ea-4a32-bc84-c540adc5e9d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="INL">
+      <UniqueIdentifier>{4b9e8bcb-35b1-43c7-b6fd-3cbecec43a7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\DebugWindow">
+      <UniqueIdentifier>{cfb8cc83-086e-40cc-90cc-0d38158ad7ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Pass\IPass">
+      <UniqueIdentifier>{d1fe6c3a-762d-4760-a406-64d7ccb0fbc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Pass\Deferred">
+      <UniqueIdentifier>{451cf5bc-c2d8-40e6-865e-f7ad28dbf4df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Pass\Debug">
+      <UniqueIdentifier>{53d2b833-cb0a-4cad-aec5-bbf95f9334a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Pass\Text">
+      <UniqueIdentifier>{dd2a804e-2f2a-4b41-99df-ca3a9bb28095}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Pass\ColDebug">
+      <UniqueIdentifier>{d51e8798-8a22-47d2-877e-6808a763f4a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Pass\UI">
+      <UniqueIdentifier>{93913748-60a9-4293-ba5b-c0e16f010b81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Pass\Water">
+      <UniqueIdentifier>{f29b6b8a-ab1e-45c7-9005-e6b788d0ab24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\BlendState">
+      <UniqueIdentifier>{3440cab2-a6ad-4e98-8c27-98ae8ed5d2eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\PixelShader">
+      <UniqueIdentifier>{8b781ae7-6dc0-4dd4-8880-6d7122349b08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Pass\OceanTest">
+      <UniqueIdentifier>{280d7565-2756-4c78-9568-8e7cc88f368a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Pass\Reflection">
+      <UniqueIdentifier>{c9c05693-83e0-48f8-b298-765bb7d4c907}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Pass\PostProcessing">
+      <UniqueIdentifier>{4b1bfff6-0626-43bc-ab12-242046cc4bca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\HLSL\PostProcessing">
+      <UniqueIdentifier>{9b1df6bd-c9e9-4abb-b2c0-af4a8e4f4f82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Pass\WaveEffectPass">
+      <UniqueIdentifier>{c863a2d6-3fcf-4ee5-8687-42c91e11f992}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsEngine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsEngineDLL.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>Engine\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="SwapChain.h">
+      <Filter>Engine\SwapChain</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTargetView.h">
+      <Filter>Engine\RenderTargetView</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthStencilState.h">
+      <Filter>Engine\DepthStencilState</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsEngineAPI.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="RasterizerState.h">
+      <Filter>Engine\RasterizerState</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelShader.h">
+      <Filter>Shader\PixelShader</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexShader.h">
+      <Filter>Shader\VertexShader</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderResource.h">
+      <Filter>Shader\ShaderResource</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderBase.h">
+      <Filter>Shader\IShader</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantBufferDefine.h">
+      <Filter>Shader\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="SamplerStateDefine.h">
+      <Filter>Shader\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Resources\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Resources\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexDefine.h">
+      <Filter>Shader\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="PassBase.h">
+      <Filter>Shader\Pass\IPass</Filter>
+    </ClInclude>
+    <ClInclude Include="LightManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicPass.h">
+      <Filter>Shader\Pass\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="LightPass.h">
+      <Filter>Shader\Pass\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="DeferredPass.h">
+      <Filter>Shader\Pass\Deferred</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugWindow.h">
+      <Filter>Engine\DebugWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugPass.h">
+      <Filter>Shader\Pass\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TextPass.h">
+      <Filter>Shader\Pass\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="ColDebugPass.h">
+      <Filter>Shader\Pass\ColDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="UIPass.h">
+      <Filter>Shader\Pass\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="WaterPass.h">
+      <Filter>Shader\Pass\Water</Filter>
+    </ClInclude>
+    <ClInclude Include="BlendState.h">
+      <Filter>Engine\BlendState</Filter>
+    </ClInclude>
+    <ClInclude Include="OceanTestPass.h">
+      <Filter>Shader\Pass\OceanTest</Filter>
+    </ClInclude>
+    <ClInclude Include="ReflectionSkyPass.h">
+      <Filter>Shader\Pass\Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="ReflectionObjectPass.h">
+      <Filter>Shader\Pass\Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="BloomPass.h">
+      <Filter>Shader\Pass\PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="PreBloomPass.h">
+      <Filter>Shader\Pass\PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveEffectPass.h">
+      <Filter>Shader\Pass\WaveEffectPass</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsEngine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>Engine\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="SwapChain.cpp">
+      <Filter>Engine\SwapChain</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTargetView.cpp">
+      <Filter>Engine\RenderTargetView</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthStencilState.cpp">
+      <Filter>Engine\DepthStencilState</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsEngineAPI.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="RasterizerState.cpp">
+      <Filter>Engine\RasterizerState</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelShader.cpp">
+      <Filter>Shader\PixelShader</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexShader.cpp">
+      <Filter>Shader\VertexShader</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderResource.cpp">
+      <Filter>Shader\ShaderResource</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderBase.cpp">
+      <Filter>Shader\IShader</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Resources\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Resources\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="PassBase.cpp">
+      <Filter>Shader\Pass\IPass</Filter>
+    </ClCompile>
+    <ClCompile Include="LightManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicPass.cpp">
+      <Filter>Shader\Pass\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="LightPass.cpp">
+      <Filter>Shader\Pass\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="DeferredPass.cpp">
+      <Filter>Shader\Pass\Deferred</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugWindow.cpp">
+      <Filter>Engine\DebugWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugPass.cpp">
+      <Filter>Shader\Pass\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TextPass.cpp">
+      <Filter>Shader\Pass\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>DLLMain</Filter>
+    </ClCompile>
+    <ClCompile Include="ColDebugPass.cpp">
+      <Filter>Shader\Pass\ColDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="UIPass.cpp">
+      <Filter>Shader\Pass\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="WaterPass.cpp">
+      <Filter>Shader\Pass\Water</Filter>
+    </ClCompile>
+    <ClCompile Include="BlendState.cpp">
+      <Filter>Engine\BlendState</Filter>
+    </ClCompile>
+    <ClCompile Include="OceanTestPass.cpp">
+      <Filter>Shader\Pass\OceanTest</Filter>
+    </ClCompile>
+    <ClCompile Include="ReflectionSkyPass.cpp">
+      <Filter>Shader\Pass\Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="ReflectionObjectPass.cpp">
+      <Filter>Shader\Pass\Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="BloomPass.cpp">
+      <Filter>Shader\Pass\PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="PreBloomPass.cpp">
+      <Filter>Shader\Pass\PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveEffectPass.cpp">
+      <Filter>Shader\Pass\WaveEffectPass</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+    <None Include="..\..\GameClient\Data\Shader\LightHeader.hlsli">
+      <Filter>Shader\HLSL</Filter>
+    </None>
+    <None Include="..\..\GameClient\Data\Shader\MaterialHeader.hlsli">
+      <Filter>Shader\HLSL</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\..\GameClient\Data\Shader\Basic_PS.hlsl">
+      <Filter>Shader\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\GameClient\Data\Shader\Basic_VS.hlsl">
+      <Filter>Shader\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\GameClient\Data\Shader\Light_VS.hlsl">
+      <Filter>Shader\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\GameClient\Data\Shader\Light_PS.hlsl">
+      <Filter>Shader\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\GameClient\Data\Shader\Normal_PS.hlsl">
+      <Filter>Shader\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\GameClient\Data\Shader\Debug_PS.hlsl">
+      <Filter>Shader\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\GameClient\Data\Shader\SkyBox_VS.hlsl">
+      <Filter>Shader\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\GameClient\Data\Shader\SkyBox_PS.hlsl">
+      <Filter>Shader\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\GameClient\Data\Shader\Deferred_VS.hlsl">
+      <Filter>Shader\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\GameClient\Data\Shader\Deferred_PS.hlsl">
+      <Filter>Shader\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\GameClient\Data\Shader\DeferredMulti_PS.hlsl">
+      <Filter>Shader\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\GameClient\Data\Shader\Water_VS.hlsl">
+      <Filter>Shader\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\GameClient\Data\Shader\Water_PS.hlsl">
+      <Filter>Shader\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\GameClient\Data\Shader\UI_VS.hlsl">
+      <Filter>Shader\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\GameClient\Data\Shader\UI_PS.hlsl">
+      <Filter>Shader\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\GameClient\Data\Shader\WaterPassSky_PS.hlsl">
+      <Filter>Shader\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\GameClient\Data\Shader\WaterPassDefault_PS.hlsl">
+      <Filter>Shader\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\GameClient\Data\Shader\OceanTest_PS.hlsl">
+      <Filter>Shader\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\GameClient\Data\Shader\OceanTest_VS.hlsl">
+      <Filter>Shader\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\GameClient\Data\Shader\DownSampling_PS.hlsl">
+      <Filter>Shader\HLSL\PostProcessing</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\GameClient\Data\Shader\Particle_PS.hlsl">
+      <Filter>Shader\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\GameClient\Data\Shader\WaveEffect_VS.hlsl">
+      <Filter>Shader\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\GameClient\Data\Shader\WaveEffect_PS.hlsl">
+      <Filter>Shader\HLSL</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

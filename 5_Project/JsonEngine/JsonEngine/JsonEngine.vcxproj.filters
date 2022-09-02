@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Json">
+      <UniqueIdentifier>{dac9dac0-96c3-465a-bfec-211daeebff41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DLL">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="PCH">
+      <UniqueIdentifier>{be2bc9c7-5b50-4c34-bf92-d61dc215763d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Json\Interface">
+      <UniqueIdentifier>{3ea37b95-7403-49e2-93f0-094b413ca547}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{273bf290-b3d3-4fdc-8fee-071c5998b4e5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="JsonBase.h">
+      <Filter>Json</Filter>
+    </ClInclude>
+    <ClInclude Include="Product.h">
+      <Filter>Json</Filter>
+    </ClInclude>
+    <ClInclude Include="Products.h">
+      <Filter>Json</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonDLLDefine.h">
+      <Filter>DLL</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonEngineDLL.h">
+      <Filter>DLL</Filter>
+    </ClInclude>
+    <ClInclude Include="IJson.h">
+      <Filter>Json\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FmodAudioEngine\FmodAudioEngine\Trace.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>DLL</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonBase.cpp">
+      <Filter>Json</Filter>
+    </ClCompile>
+    <ClCompile Include="Product.cpp">
+      <Filter>Json</Filter>
+    </ClCompile>
+    <ClCompile Include="Products.cpp">
+      <Filter>Json</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonEngineDLL.cpp">
+      <Filter>DLL</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>
